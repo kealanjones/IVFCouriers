@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <!-- Not sure if i need this one yet -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Tab title -->
+  <link rel="icon" type="favicon" sizes="96x96" href="images/ivf-favicon.png">
+  <title>IVF Couriers - Bespoke medical courier service</title>
+
+  <!-- GOOGLE FONTS -->
+
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Spartan&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+
+  <script src="https://kit.fontawesome.com/cf1bd1781c.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Custom CSS stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+
+  <!--__________________________________________ Navigation bar____________________________________ -->
+
+
+  <nav class="navbar sticky-top navbar-expand-lg nav-bar-light bg-light">
+
+    <a class="navbar-brand" href="index.html">
+      <img src="images/ivflogo2.png" class="img-fluid logo-img" width="250px" alt="logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#testimonials">About us <i class="fas fa-chevron-down fa-xs"></i></a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+            <a class="dropdown-item" href="#">Our Services</a>
+            <a class="dropdown-item" href="team.html">Our Team</a>
+            <a class="dropdown-item" href="#">Contact us</a>
+            <a class="dropdown-item" href="faq.html">FAQ</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#testimonials">Testimonials <i class="fas fa-chevron-down fa-xs"></i></a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+            <a class="dropdown-item" href="#">From clients</a>
+            <a class="dropdown-item" href="#">From clinics</a>
+          </div>
+        </li>
+
+
+
+        <li class="nav-item nav-item-no"><button type="button" onclick="window.location.href = 'quote.html';" class="btn btn-dark btn-lg btn-quote">
+            <a class"nav-link" href="quote.html"><strong>Get a quote</strong></a></button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--_________________________________________________________________ Quote ____________________________________________________________-->
+
+
+  <section id="quote">
+    <h1>Request an individual quote</h1>
+    <p class="quote-width">Please use this form to contact us, and click “submit” when you have completed your request.</p>
+    <br>
+    <form class="form-style-9">
+      <ul>
+        <h3>Personal details</h3>
+        <li>
+          <input type="text" name="field1" class="field-style field-split align-left" placeholder="First Name" />
+          <input type="text" name="field2" class="field-style field-split align-right" placeholder="Surname" />
+
+        </li>
+        <li>
+          <input type="email" name="field3" class="field-style field-split align-left" placeholder="Email address" />
+          <input type="text" name="field4" class="field-style field-split align-right" placeholder="Phone number (including country area code)" />
+        </li>
+
+        <hr>
+        <h3>Origin clinic/ laboratory details</h3>
+        <li>
+          <input type="text" name="field5" class="field-style field-split align-left" placeholder="Origin clinic name" />
+          <input type="text" name="field6" class="field-style field-split align-right" placeholder="Origin clinic city and country" />
+
+        </li>
+        <li>
+          <input type="text" name="field7" class="field-style field-split align-left" placeholder="Clinic contact name" />
+          <input type="text" name="field8" class="field-style field-split align-right" placeholder="Phone number (including country area code)" />
+        </li>
+
+        <hr>
+        <h3>Destination clinic/ laboratory details</h3>
+        <li>
+          <input type="text" name="field9" class="field-style field-split align-left" placeholder="Destination clinic name" />
+          <input type="text" name="field10" class="field-style field-split align-right" placeholder="Destination clinic city and country" />
+
+        </li>
+        <li>
+          <input type="text" name="field11" class="field-style field-split align-left" placeholder="Clinic contact name" />
+          <input type="text" name="field12" class="field-style field-split align-right" placeholder="Phone number (including country area code)" />
+        </li>
+
+        <hr>
+        <h3>Consignement specifications</h3>
+        <li>
+          <input type="text" name="field13" class="field-style field-split align-left" placeholder="Nature of consignement" />
+          <input type="text" name="field14" class="field-style field-split align-right" placeholder="Date of delivery (dd/mm/yyyy)" />
+        </li>
+
+
+
+        <li>
+          <textarea name="field17" class="field-style" placeholder="Other important details or special requirements"></textarea>
+        </li>
+        <li>
+          <a href="#myModal" class="trigger-btn" data-toggle="modal">
+            <input type="submit" value="Submit quote request" /></a>
+        </li>
+      </ul>
+    </form>
+
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+      <div class="modal-dialog modal-confirm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="icon-box">
+              <i class="fas fa-check"></i>
+            </div>
+            <h4 class="modal-title">Thank you</h4>
+          </div>
+          <div class="modal-body">
+            <p class="text-center">Your quote request has been successfully submitted and we will be in touch shortly.</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-success btn-block" onclick="window.location.href = 'index.html';" data-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!--___________________________________________________________________ Call to Action_______________________________________________________________________- -->
+
+  <section id="cta">
+
+    <h2>Please get in touch if you have any questions or would like to discuss a transfer</h2><br>
+    <p>Download a brochure in your language</p><br>
+    <a href="documents/brochure-english.pdf" download><img class="flag" src="images/uk.svg" alt=""></a>
+    <a href="#"><img class="flag" src="images/france.svg" alt=""></a>
+    <a href="#"><img class="flag" src="images/spain.svg" alt=""></a>
+    <a href="#"><img class="flag" src="images/italy.svg" alt=""></a>
+    <a href="#"><img class="flag" src="images/russia.svg" alt=""></a>
+
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>
+      <a href="https://www.linkedin.com/company/ivf-couriers/"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:contact@ivfcouriers.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.facebook.com/ivfcouriers/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/ivfcouriers?lang=en"><i class="fab fa-twitter"></i></a>
+    </p>
+
+    <p>© 2020 IVF Couriers LLP</p><br>
+    <p><a href="documents/terms.pdf">Terms & Conditions</a> | <a href="documents/privacy-and-cookies.pdf">Privacy & Cookies</a> </p>
+
+  </footer>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
